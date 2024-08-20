@@ -1,0 +1,139 @@
+// Buy
+color: '#6D7081';
+ fontSize: 20;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Sell
+color: '#6D7081';
+ fontSize: 20;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Limit
+color: '#6D7081';
+ fontSize: 17;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Trailing
+color: '#6D7081';
+ fontSize: 17;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// 250,000KRW
+color: '#525867';
+ fontSize: 17;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// SOL/KRW
+color: '#525867';
+ fontSize: 17;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Trigger Price
+color: '#6D7081';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Trigger Price
+color: 'black';
+ fontSize: 19;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Draw-down   (%)
+color: '#6D7081';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Standard Price
+color: 'black';
+ fontSize: 19;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// T/D (%)
+color: '#6D7081';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Draw-up (%)
+color: 'black';
+ fontSize: 19;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Amount (SOL)
+color: '#6D7081';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// SOL
+color: '#6D7081';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+//   T/D (%)
+color: 'black';
+ fontSize: 19;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Amount (KRW)
+color: '#6D7081';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// KRW
+color: '#6D7081';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Amount
+color: 'black';
+ fontSize: 19;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Total: 0.00
+color: '#6D7081';
+ fontSize: 15;
+ fontFamily: 'Inter';
+ fontWeight: '400';
+ wordWrap: 'break-word'
+---
+// Buy
+color: 'white';
+ fontSize: 20;
+ fontFamily: 'Inter';
+ fontWeight: '600';
+ wordWrap: 'break-word'
