@@ -2,6 +2,9 @@
 
 http://moduai.mycafe24.com/at
 
+## Realtime Price Dashboard - V0.2
+[https://github.com/dscoool/tradeat/blob/main/screen/market.png]
+
 ## Getting started
 
 > **Prerequisites:**
