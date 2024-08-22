@@ -9,6 +9,10 @@ http://moduai.mycafe24.com/at
 2024.08.22 Implemented Buy / Sell trailing screen.
 2024.08.21 Implemented React.js : used figma - react.js converting tool 
 2024.08.20 Figma Design
+
+## Figma Design
+![Figma Design](https://github.com/dscoool/tradeat/blob/main/screen/FigmaDesign.png)
+
 > **Prerequisites:**
 Structures
 
