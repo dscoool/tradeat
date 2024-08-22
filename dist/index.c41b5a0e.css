@@ -1,0 +1,634 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "https://fonts.googleapis.com/css?family=IBM+Plex+Sans:500,700|Inter:400";
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: IBM Plex Sans;
+  src: url("https://github.com/google/fonts/raw/main/ofl/ibmplexsans/IBMPlexSans-Regular.ttf") format("truetype");
+}
+
+.swipe-handle {
+  background-color: #000;
+  border-radius: 10px;
+  width: 134px;
+  height: 5px;
+}
+
+.market {
+  background-color: #f8f9fa;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.market .div {
+  background-color: var(--alt-bg);
+  width: 373px;
+  height: 812px;
+  position: relative;
+  overflow: hidden;
+}
+
+.market .overlap {
+  width: 375px;
+  height: 577px;
+  position: absolute;
+  top: 235px;
+  left: 0;
+}
+
+.market .frame {
+  width: 328px;
+  height: 552px;
+  position: absolute;
+  top: 0;
+  left: 32px;
+  overflow: hidden scroll;
+}
+
+.market .overlap-group {
+  width: 351px;
+  height: 78px;
+  position: absolute;
+  top: 480px;
+  left: -15px;
+}
+
+.market .group {
+  width: 351px;
+  height: 72px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.market .overlap-group-2 {
+  background-color: var(--bg);
+  box-shadow: var(--small);
+  border-radius: 8px;
+  width: 343px;
+  height: 72px;
+  position: relative;
+}
+
+.market .text-wrapper {
+  color: var(--text-1);
+  letter-spacing: 0;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  left: 83px;
+}
+
+.market .text-wrapper-2 {
+  color: var(--text-2);
+  letter-spacing: 0;
+  height: 21px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  left: auto;
+  right: 30px;
+}
+
+.market .text-wrapper-3 {
+  color: var(--text-3);
+  letter-spacing: 0;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 41px;
+  left: 83px;
+}
+
+.market .text-wrapper-4 {
+  color: var(--green);
+  letter-spacing: 0;
+  height: 16px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  left: 288px;
+}
+
+.market .img {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 16px;
+  left: 31px;
+}
+
+.market .vector {
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  top: 24px;
+  left: 196px;
+}
+
+.market .text-wrapper-5 {
+  color: #000;
+  letter-spacing: 0;
+  font-family: Inter, Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 63px;
+  left: 154px;
+}
+
+.market .overlap-wrapper {
+  width: 351px;
+  height: 72px;
+  position: absolute;
+  top: 240px;
+  left: -15px;
+}
+
+.market .text-wrapper-6 {
+  color: var(--text-2);
+  letter-spacing: 0;
+  height: 21px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  left: 268px;
+}
+
+.market .text-wrapper-7 {
+  color: var(--green);
+  letter-spacing: 0;
+  text-align: right;
+  height: 16px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  left: 287px;
+}
+
+.market .overlap-group-wrapper {
+  width: 347px;
+  height: 72px;
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+
+.market .text-wrapper-8 {
+  color: var(--text-2);
+  letter-spacing: 0;
+  height: 21px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 17px;
+  left: 255px;
+}
+
+.market .group-2 {
+  width: 57px;
+  height: 39px;
+  position: absolute;
+  top: 18px;
+  left: 83px;
+}
+
+.market .text-wrapper-9 {
+  color: var(--text-1);
+  letter-spacing: 0;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.market .text-wrapper-10 {
+  color: var(--text-3);
+  letter-spacing: 0;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 23px;
+  left: 0;
+}
+
+.market .group-wrapper {
+  width: 343px;
+  height: 72px;
+  position: absolute;
+  top: 80px;
+  left: -15px;
+}
+
+.market .div-wrapper {
+  width: 351px;
+  height: 72px;
+}
+
+.market .text-wrapper-11 {
+  color: #21bf73;
+  letter-spacing: 0;
+  text-align: right;
+  height: 16px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  left: 282px;
+}
+
+.market .vector-2 {
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  top: 22px;
+  left: 196px;
+}
+
+.market .group-3 {
+  width: 351px;
+  height: 72px;
+  position: absolute;
+  top: 320px;
+  left: -15px;
+}
+
+.market .text-wrapper-12 {
+  color: var(--text-2);
+  letter-spacing: 0;
+  text-align: right;
+  height: 21px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+  left: 297px;
+}
+
+.market .text-wrapper-13 {
+  color: var(--red);
+  letter-spacing: 0;
+  text-align: right;
+  height: 16px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  left: 289px;
+}
+
+.market .group-4 {
+  width: 343px;
+  height: 72px;
+  position: absolute;
+  top: 160px;
+  left: -15px;
+}
+
+.market .text-wrapper-14 {
+  color: #21bf73;
+  letter-spacing: 0;
+  text-align: right;
+  height: 16px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  left: 267px;
+}
+
+.market .group-5 {
+  width: 349px;
+  height: 72px;
+  position: absolute;
+  top: 400px;
+  left: -15px;
+}
+
+.market .text-wrapper-15 {
+  color: var(--green);
+  letter-spacing: 0;
+  text-align: right;
+  height: 16px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  left: 289px;
+}
+
+.market .menu {
+  background-color: #fff;
+  width: 375px;
+  height: 88px;
+  position: absolute;
+  top: 489px;
+  left: 0;
+  box-shadow: 8px 0 16px #00000026;
+}
+
+.market .group-6 {
+  width: 30px;
+  height: 35px;
+  position: absolute;
+  top: 20px;
+  left: 41px;
+}
+
+.market .vector-3 {
+  width: 22px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 3px;
+}
+
+.market .text-wrapper-16 {
+  color: #6c757d;
+  letter-spacing: 0;
+  white-space: nowrap;
+  width: 28px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  left: 0;
+}
+
+.market .group-7 {
+  width: 41px;
+  height: 35px;
+  position: absolute;
+  top: 20px;
+  left: 101px;
+}
+
+.market .vector-4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 9px;
+}
+
+.market .text-wrapper-17 {
+  color: #6c757d;
+  letter-spacing: 0;
+  white-space: nowrap;
+  width: 39px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  left: 0;
+}
+
+.market .group-8 {
+  width: 41px;
+  height: 13px;
+  position: absolute;
+  top: 42px;
+  left: 172px;
+}
+
+.market .text-wrapper-18 {
+  color: #6c757d;
+  letter-spacing: 0;
+  white-space: nowrap;
+  width: 39px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.market .group-9 {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 20px;
+  left: 243px;
+}
+
+.market .vector-5 {
+  width: 22px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+
+.market .text-wrapper-19 {
+  color: #0063f5;
+  letter-spacing: 0;
+  white-space: nowrap;
+  width: 33px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  left: 0;
+}
+
+.market .group-10 {
+  width: 32px;
+  height: 35px;
+  position: absolute;
+  top: 20px;
+  left: 308px;
+}
+
+.market .vector-6 {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: 6px;
+}
+
+.market .text-wrapper-20 {
+  color: #6c757d;
+  letter-spacing: 0;
+  white-space: nowrap;
+  width: 30px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  left: 0;
+}
+
+.market .trade-icon {
+  width: 31px;
+  height: 26px;
+  position: absolute;
+  top: 507px;
+  left: 169px;
+}
+
+.market .swipe-handle-instance {
+  position: absolute !important;
+  top: 564px !important;
+  left: 120px !important;
+}
+
+.market .overlap-2 {
+  width: 319px;
+  height: 45px;
+  position: absolute;
+  top: 67px;
+  left: 32px;
+}
+
+.market .group-11 {
+  width: 315px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.market .text-wrapper-21 {
+  color: #6c757d;
+  letter-spacing: 0;
+  width: 156px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+
+.market .market-is-profitable {
+  color: #0000;
+  letter-spacing: 0;
+  width: 311px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.market .span {
+  color: #212529;
+}
+
+.market .text-wrapper-22 {
+  color: #d90429;
+}
+
+.market .text-wrapper-23 {
+  color: #21bf73;
+}
+
+.market .vector-7 {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 300px;
+}
+
+.market .text-wrapper-24 {
+  color: #000;
+  letter-spacing: 0;
+  width: 46px;
+  font-family: IBM Plex Sans, Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 141px;
+  left: 32px;
+}
+
+.market .vector-wrapper {
+  background-color: #f8f9fa;
+  border: .5px solid #dfe2e4;
+  border-radius: 12px;
+  width: 94px;
+  height: 24px;
+  position: absolute;
+  top: 142px;
+  left: 265px;
+}
+
+.market .vector-8 {
+  width: 7px;
+  height: 4px;
+  position: absolute;
+  top: 10px;
+  left: 77px;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */

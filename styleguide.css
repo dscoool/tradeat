@@ -1,0 +1,14 @@
+:root {
+  --alt-bg: rgba(248, 249, 250, 1);
+  --bg: rgba(255, 255, 255, 1);
+  --green: rgba(33, 191, 115, 1);
+  --red: rgba(217, 4, 41, 1);
+  --small: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  --text-1: rgba(33, 37, 41, 1);
+  --text-2: rgba(52, 58, 64, 1);
+  --text-3: rgba(108, 117, 125, 1);
+  --variable-collection-draw-up: 0px;
+  --variable-collection-limit: none;
+  --variable-collection-td: 0.44999998807907104px;
+  --variable-collection-trailing: initial;
+}

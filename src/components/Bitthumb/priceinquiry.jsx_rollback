@@ -1,0 +1,87 @@
+import { API, SECRET } from './config';
+import React, { useEffect, useState } from "react";
+
+export const FetchCoinPrice = (coin) => {
+
+    const [price, setPrice] = useState(null);
+    const [error, setError] = useState(null);
+
+    const options = {method: 'GET', 
+        headers: {accept: 'application/json',
+        markets: coin }
+    }
+
+    fetch('https://api.bithumb.com/v1/ticker', options)
+    .then(response => response.json())
+    .then(response => console.log(response))
+    .catch(err => console.error(err));
+
+return(
+        <div className="text-wrapper-8">
+        {response.json()}
+        101
+        {error && <p>{error}</p>}
+        {/* {price && <p>Bitcoin Price: {price} KRW</p>} */}
+        </div>
+    )
+};
+
+function order(coin){
+    const jwt = require('jsonwebtoken');
+    const { v4: uuidv4 } = require('uuid');
+    const crypto = require('crypto');
+    const querystring = require('querystring');
+    const axios = require('axios')
+
+    const accessKey = API 
+    const secretKey = SECRET
+    const apiUrl = 'https://api.bithumb.com'
+
+    // Set API parameters
+    const query = 'market=${coin}';
+
+    // Generate access token
+    const alg = 'SHA512'
+    const hash = crypto.createHash(alg)
+    const queryHash = hash.update(query, 'utf-8').digest('hex')
+    const payload = {
+        access_key: accessKey,
+        nonce: uuidv4(),
+        timestamp: Date.now(),
+        query_hash: queryHash,
+        query_hash_alg: alg
+    }
+    const jwtToken = jwt.sign(payload, secretKey)
+    const config = {
+        headers: {
+            Authorization: `Bearer ${jwtToken}`
+        }
+    }
+
+    // Call API
+    axios.get(apiUrl + '/v1/orders/chance?' + query, config)
+        .then((response) => {
+            // handle to success
+            console.log('status: ', response.status)
+            console.log('data: ', response.data)
+        })
+        .catch((error) => {
+            // handle to fail
+            console.log(error.response.status)
+            console.log(error.response.data)
+        })
+
+        return (
+        axios.get(apiUrl + '/v1/orders/chance?' + query, config)
+        .then((response) => {
+            return response.data; // Return the API response data
+        })
+        .catch((error) => {
+            console.error(error.response.status);
+            console.error(error.response.data);
+            throw error; // Throw error to be handled in the component
+        })
+       
+    );
+
+};
