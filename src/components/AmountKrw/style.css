@@ -1,0 +1,59 @@
+.amount-KRW {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #dadae4;
+  border-radius: 10px;
+  height: 71px;
+  width: 308px;
+}
+
+.amount-KRW .overlap-group-3 {
+  height: 53px;
+  left: 15px;
+  position: relative;
+  top: 5px;
+  width: 293px;
+}
+
+.amount-KRW .text-wrapper-6 {
+  color: #6d7081;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 277px;
+}
+
+.amount-KRW .text-wrapper-7 {
+  color: #6d7081;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 210px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 24px;
+  width: 83px;
+}
+
+.amount-KRW .KRW {
+  height: 38px;
+  left: 174px;
+  object-fit: cover;
+  position: absolute;
+  top: 15px;
+  width: 38px;
+}
+
+.amount-KRW .chevron-down-1 {
+  height: 16px !important;
+  left: 255px !important;
+  position: absolute !important;
+  top: 25px !important;
+  width: 16px !important;
+}

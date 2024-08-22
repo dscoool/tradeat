@@ -1,0 +1,29 @@
+.buy {
+  height: 43px;
+  position: relative;
+  width: 203px;
+}
+
+.buy .line {
+  height: 1px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 42px;
+  width: 203px;
+}
+
+.buy .text-wrapper {
+  color: #6d7081;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 77px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 48px;
+}

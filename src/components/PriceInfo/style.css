@@ -1,0 +1,46 @@
+.price-info {
+  height: 28px;
+  width: 283px;
+}
+
+.price-info .overlap-group {
+  height: 28px;
+  position: relative;
+}
+
+.price-info .price {
+  color: #525867;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  left: 83px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 3px;
+  width: 200px;
+}
+
+.price-info .stock {
+  color: #525867;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 3px;
+  width: 100px;
+}
+
+.price-info .solana {
+  height: 28px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}

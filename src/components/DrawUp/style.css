@@ -1,0 +1,22 @@
+.draw-up {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #dadae4;
+  border-radius: 10px;
+  height: 71px;
+  position: relative;
+  width: 308px;
+}
+
+.draw-up .text-wrapper-3 {
+  color: #6d7081;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 15px;
+  width: 277px;
+}

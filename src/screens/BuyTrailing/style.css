@@ -1,0 +1,287 @@
+.buy-trailing {
+  background-color: #e6e9f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.buy-trailing .div-2 {
+  background-color: #e6e9f2;
+  height: 667px;
+  position: relative;
+  width: 375px;
+}
+
+.buy-trailing .background-white {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 818px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.buy-trailing .line-2 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 374px;
+}
+
+.buy-trailing .buy-instance {
+  height: 58px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 184px !important;
+}
+
+.buy-trailing .design-component-instance-node {
+  top: 58px !important;
+  width: 184px !important;
+}
+
+.buy-trailing .buy-2 {
+  font-family: "IBM Plex Sans", Helvetica !important;
+  left: 67px !important;
+  line-height: 55px !important;
+}
+
+.buy-trailing .div-wrapper {
+  height: 57px;
+  left: 187px;
+  position: absolute;
+  top: 1px;
+  width: 187px;
+}
+
+.buy-trailing .text-wrapper-12 {
+  color: #6d7081;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: 55px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 47px;
+}
+
+.buy-trailing .limit {
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 48px;
+  left: 32px;
+  position: absolute;
+  top: 75px;
+  width: 146px;
+}
+
+.buy-trailing .text-wrapper-13 {
+  color: #6d7081;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  left: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 72px;
+}
+
+.buy-trailing .trailing-instance {
+  left: 213px !important;
+  position: absolute !important;
+  top: 75px !important;
+}
+
+.buy-trailing .price-info-instance {
+  left: 54px !important;
+  position: absolute !important;
+  top: 149px !important;
+}
+
+.buy-trailing .trigger-price-instance {
+  left: 40px !important;
+  position: absolute !important;
+  top: 200px !important;
+}
+
+.buy-trailing .frame {
+  background: none;
+  border: 1px solid;
+  border-color: #00000033;
+  border-radius: 10px;
+  color: #000000;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 71px;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -20px;
+  margin-top: -20px;
+  padding: 10px;
+  position: absolute;
+  text-align: right;
+  top: 199px;
+  width: 310px;
+}
+
+.buy-trailing .draw-down {
+  left: 40px !important;
+  position: absolute !important;
+  top: 290px !important;
+}
+
+.buy-trailing .draw-down-wrapper {
+  background: none;
+  border: 1px solid;
+  border-color: #00000033;
+  color: #000000;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 17px;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 10px;
+  position: absolute;
+  text-align: right;
+  top: 289px;
+  white-space: nowrap;
+  width: 309px;
+}
+
+.buy-trailing .t-d-instance {
+  left: 40px !important;
+  position: absolute !important;
+  top: 384px !important;
+}
+
+.buy-trailing .input {
+  background: none;
+  border: 1px solid;
+  border-color: #00000033;
+  color: #000000;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 17px;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 10px;
+  position: absolute;
+  text-align: right;
+  top: 383px;
+  white-space: nowrap;
+  width: 309px;
+}
+
+.buy-trailing .amount-instance {
+  left: 40px !important;
+  position: absolute !important;
+  top: 472px !important;
+}
+
+.buy-trailing .t-d-2 {
+  background-color: transparent;
+  border: 0;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 17px;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 508px;
+  white-space: nowrap;
+  width: 167px;
+}
+
+.buy-trailing .amount-KRW-instance {
+  left: 40px !important;
+  position: absolute !important;
+  top: 561px !important;
+}
+
+.buy-trailing .amount-KRW-2 {
+  background-color: transparent;
+  border: 0;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 23px;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 590px;
+  width: 167px;
+}
+
+.buy-trailing .text-wrapper-14 {
+  color: #6d7081;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 643px;
+  width: 277px;
+}
+
+.buy-trailing .execute-order-button-instance {
+  left: 40px !important;
+  position: absolute !important;
+  top: 684px !important;
+}
+
+.buy-trailing .menu-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 579px !important;
+}
+
+.buy-trailing .menu-2 {
+  color: #6c757d !important;
+  font-family: "IBM Plex Sans", Helvetica !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+}
+
+.buy-trailing .menu-3 {
+  font-family: "IBM Plex Sans", Helvetica !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+}
+
+.buy-trailing .menu-4 {
+  color: #0063f5 !important;
+  font-family: "IBM Plex Sans", Helvetica !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+}

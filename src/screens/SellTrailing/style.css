@@ -1,0 +1,334 @@
+.sell-trailing {
+  background-color: #e6e9f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sell-trailing .div-2 {
+  background-color: #e6e9f2;
+  height: 667px;
+  position: relative;
+  width: 375px;
+}
+
+.sell-trailing .background-white {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 818px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.sell-trailing .line {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 374px;
+}
+
+.sell-trailing .buy {
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 184px;
+}
+
+.sell-trailing .text-wrapper-11 {
+  color: #6d7081;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: 55px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 48px;
+}
+
+.sell-trailing .sell {
+  height: 57px;
+  left: 187px;
+  position: absolute;
+  top: 1px;
+  width: 187px;
+}
+
+.sell-trailing .text-wrapper-12 {
+  color: #6d7081;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: 55px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 47px;
+}
+
+.sell-trailing .limit {
+  border: 1px solid;
+  border-color: #00000033;
+  border-radius: 10px;
+  height: 48px;
+  left: 30px;
+  opacity: 0.7;
+  position: absolute;
+  top: 75px;
+  width: 146px;
+}
+
+.sell-trailing .text-wrapper-13 {
+  color: #6d7081;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 21px;
+  left: 53px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  width: 72px;
+}
+
+.sell-trailing .trailing-instance {
+  left: 199px !important;
+  position: absolute !important;
+  top: 75px !important;
+}
+
+.sell-trailing .design-component-instance-node {
+  font-family: "IBM Plex Sans", Helvetica !important;
+  font-size: 16px !important;
+  height: 21px !important;
+}
+
+.sell-trailing .price-info-instance {
+  left: 54px !important;
+  position: absolute !important;
+  top: 149px !important;
+}
+
+.sell-trailing .trigger-price-instance {
+  left: 40px !important;
+  position: absolute !important;
+  top: 200px !important;
+}
+
+.sell-trailing .frame {
+  background: none;
+  border: 1px solid;
+  border-color: #00000033;
+  border-radius: 10px;
+  color: #000000;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 71px;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: -20px;
+  margin-top: -20px;
+  padding: 10px;
+  position: absolute;
+  text-align: right;
+  top: 199px;
+  width: 310px;
+}
+
+.sell-trailing .draw-down {
+  left: 40px !important;
+  position: absolute !important;
+  top: 290px !important;
+}
+
+.sell-trailing .draw-down-wrapper {
+  background: none;
+  border: 1px solid;
+  border-color: #00000033;
+  color: #000000;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 17px;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 10px;
+  position: absolute;
+  text-align: right;
+  top: 289px;
+  white-space: nowrap;
+  width: 309px;
+}
+
+.sell-trailing .t-d-instance {
+  left: 40px !important;
+  position: absolute !important;
+  top: 384px !important;
+}
+
+.sell-trailing .input {
+  background: none;
+  border: 1px solid;
+  border-color: #00000033;
+  color: #000000;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 17px;
+  left: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 10px;
+  position: absolute;
+  text-align: right;
+  top: 383px;
+  white-space: nowrap;
+  width: 309px;
+}
+
+.sell-trailing .amount-instance {
+  left: 40px !important;
+  position: absolute !important;
+  top: 472px !important;
+}
+
+.sell-trailing .t-d-2 {
+  background-color: transparent;
+  border: 0;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 17px;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 508px;
+  white-space: nowrap;
+  width: 167px;
+}
+
+.sell-trailing .amount-KRW-instance {
+  left: 40px !important;
+  position: absolute !important;
+  top: 561px !important;
+}
+
+.sell-trailing .amount-KRW-2 {
+  background-color: transparent;
+  border: 0;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 23px;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 590px;
+  width: 167px;
+}
+
+.sell-trailing .text-wrapper-14 {
+  color: #6d7081;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 643px;
+  width: 277px;
+}
+
+.sell-trailing .menu-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 579px !important;
+}
+
+.sell-trailing .menu-2 {
+  color: #6c757d !important;
+  font-family: "IBM Plex Sans", Helvetica !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+}
+
+.sell-trailing .menu-3 {
+  font-family: "IBM Plex Sans", Helvetica !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+}
+
+.sell-trailing .menu-4 {
+  color: #0063f5 !important;
+  font-family: "IBM Plex Sans", Helvetica !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  white-space: nowrap !important;
+}
+
+.sell-trailing .execute-order-button {
+  background-color: #f75467;
+  height: 71px;
+  left: 44px;
+  position: absolute;
+  top: 684px;
+  width: 308px;
+}
+
+.sell-trailing .overlap {
+  background-color: #f75467;
+  border: 1px solid;
+  border-color: #dadae4;
+  border-radius: 10px;
+  height: 71px;
+  position: relative;
+}
+
+.sell-trailing .text-wrapper-15 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 72px;
+}
+
+.sell-trailing .line-2 {
+  height: 1px;
+  left: 190px;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 184px;
+}

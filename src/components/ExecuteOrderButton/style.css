@@ -1,0 +1,23 @@
+.execute-order-button {
+  background-color: #5367fe;
+  border: 1px solid;
+  border-color: #dadae4;
+  border-radius: 10px;
+  height: 71px;
+  position: relative;
+  width: 308px;
+}
+
+.execute-order-button .sell {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 72px;
+}

@@ -1,0 +1,29 @@
+.trailing {
+  background-color: #e2f2ff;
+  border-radius: 10px;
+  height: 48px;
+  position: relative;
+  width: 146px;
+}
+
+.trailing .rb {
+  height: 24px !important;
+  left: 23px !important;
+  position: absolute !important;
+  top: 15px !important;
+  width: 24px !important;
+}
+
+.trailing .div {
+  color: #6d7081;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  left: 53px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  width: 72px;
+}

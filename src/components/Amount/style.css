@@ -1,0 +1,59 @@
+.amount {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #dadae4;
+  border-radius: 10px;
+  height: 71px;
+  width: 308px;
+}
+
+.amount .overlap-group-2 {
+  height: 38px;
+  left: 15px;
+  position: relative;
+  top: 14px;
+  width: 293px;
+}
+
+.amount .amount-SOL {
+  color: #6d7081;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 277px;
+}
+
+.amount .text-wrapper-5 {
+  color: #6d7081;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 210px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+  width: 83px;
+}
+
+.amount .img {
+  height: 28px;
+  left: 179px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 28px;
+}
+
+.amount .chevron-down {
+  height: 16px !important;
+  left: 255px !important;
+  position: absolute !important;
+  top: 17px !important;
+  width: 16px !important;
+}
