@@ -5,8 +5,10 @@ http://moduai.mycafe24.com/at
 ## Realtime Price Dashboard - V0.2
 ![Market Price Page](https://github.com/dscoool/tradeat/blob/main/screen/market.png)
 
-## Getting started
-
+## Build
+2024.08.22 Implemented Buy / Sell trailing screen.
+2024.08.21 Implemented React.js : used figma - react.js converting tool 
+2024.08.20 Figma Design
 > **Prerequisites:**
 Structures
 
